@@ -1,4 +1,4 @@
-function Result({ questions, correct }) {
+function Result({ correct, questions }) {
   return (
     <div className="result">
       <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />

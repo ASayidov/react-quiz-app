@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./style.scss";
-import Result from "./Result";
 import Game from "./Game";
+import Result from "./Result";
+import "./style.scss";
 
 const questions = [
   {
@@ -241,7 +241,7 @@ function App() {
           questions={questions}
         />
       ) : (
-        <Result correct={correct} />
+        <Result correct={correct} questions={questions} />
       )}
     </div>
   );

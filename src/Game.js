@@ -1,9 +1,10 @@
-import React from "react";
-
-function Game({ question, onclickVariant, step, questions }) {
+function Game({ question, onclickVariant, step, questions, ok }) {
   const percentage = Math.round((step / questions.length) * 100);
+
   return (
     <>
+      <p>{step + 1}-savol</p>
+
       <div className="progress">
         <div
           style={{ width: `${percentage}%` }}
