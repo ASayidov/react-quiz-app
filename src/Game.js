@@ -1,4 +1,4 @@
-function Game({ question, onclickVariant, step, questions, ok }) {
+function Game({ question, onclickVariant, step, questions }) {
   const percentage = Math.round((step / questions.length) * 100);
 
   return (
