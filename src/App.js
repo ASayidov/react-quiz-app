@@ -18,7 +18,7 @@ const questions = [
       `<audio src="audio.mp3">`,
       `<audio file="audio.mp3">`,
     ],
-    correct: 0,
+    correct: 2,
   },
   {
     title:
@@ -57,7 +57,7 @@ const questions = [
   {
     title: "Quyidagi xossalardan qaysi biri CSS3'da qo'shilmagan?",
     variants: [`transition`, `transform`, `animation`, `shadow`],
-    correct: 2,
+    correct: 3,
   },
   {
     title:
